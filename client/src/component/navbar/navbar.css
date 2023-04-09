@@ -1,0 +1,10 @@
+
+.navbar_li
+{
+    display: inline;
+    padding: 5px;
+}
+.NavbarLink{
+    text-decoration: none;
+    color: black;
+}

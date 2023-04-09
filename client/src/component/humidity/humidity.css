@@ -1,0 +1,81 @@
+.col{
+    margin: 1%;
+    border-style: solid;
+   
+   
+}
+.room{
+    border-style:groove;
+    padding: 1%;
+    color: white;
+    
+   
+}
+
+.room_danger{
+    background-color: red;
+    color: black;
+
+}
+.room_normal{
+    background-color: rgb(119, 221, 119);
+    
+    
+}
+.display_panel
+{
+   background-color:  white;
+}
+
+.display_digit
+{
+    color: red;
+}
+
+.temp_meter
+{
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+.temp_level
+{
+   
+    border-style:solid;
+    border-color: aqua;
+    width: 30px;
+    height: 250px;
+    display: flex;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.temp_slider
+{
+    /* background-color: green; */
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.temp_digit
+{
+    /* border-style: solid; */
+    color: black;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    
+
+}
+
+.temp_label{
+    display: block ;
+    margin-top: 1px;
+}
